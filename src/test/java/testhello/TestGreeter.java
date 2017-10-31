@@ -42,4 +42,20 @@ public class TestGreeter {
       assertEquals(g.getName(), "... Pole");
       assertEquals(g.sayHello(), "Hello ... Pole!");
    }
+
+   @Test
+   public void newtestMRGreeterPass()
+   {
+   	  g.setName("CS Student");
+   	  assertEquals(g.getName(), "CS Student");
+   	  assertEquals(g.sayHello(), "Hello CS Student!");
+   }
+/*
+   @Test
+   public void newtestMRGreeterFail()
+   {
+   	  g.setName("Liberal Arts Major");
+   	  assertEquals(g.setName(), "Liberal Arts Student");
+   	  assertEquals(g.sayHello(), "Hello Liberal Arts Student!");
+   }*/
 }
