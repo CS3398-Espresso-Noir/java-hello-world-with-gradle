@@ -19,7 +19,17 @@ public class TestGreeter {
    {
       g = new Greeter();
    }
+	
+   @Test
+   public void newtestEDPGreeterPass()
+   {
+      g.setName("heinous");
+      assertEquals(g.getName(), "heinous");
+      assertEquals(g.sayHello(), "Hello heinous!");
+   }
 
+	
+	
    @Test
    public void testGreeterEmpty() 
    {
