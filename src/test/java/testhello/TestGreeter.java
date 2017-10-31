@@ -50,7 +50,7 @@ public class TestGreeter {
    	  assertEquals(g.getName(), "CS Student");
    	  assertEquals(g.sayHello(), "Hello CS Student!");
    }
-/*
+
    @Test
    public void newtestMRGreeterFail()
    {
@@ -58,5 +58,5 @@ public class TestGreeter {
    	  assertEquals(g.setName(), "Liberal Arts Student");
    	  assertEquals(g.sayHello(), "Hello Liberal Arts Student!");
    }
-   */
+
 }
