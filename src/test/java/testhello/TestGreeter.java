@@ -27,6 +27,14 @@ public class TestGreeter {
       assertEquals(g.getName(), "heinous");
       assertEquals(g.sayHello(), "Hello heinous!");
    }
+	
+   @Test
+   public void newtestEDPGreeterFail()
+   {
+      g.setName("heinous");
+      assertEquals(g.getName(), "haynous");
+      assertEquals(g.sayHello(), "Hello haynous!");
+   }
 
 	
 	
