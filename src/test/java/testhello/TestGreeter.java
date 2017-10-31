@@ -1,11 +1,9 @@
 package hello;
 
-import static org.junit.Assert.*;
-//import static org.junit.jupiter.api.Assertions.*;
-
 import org.junit.Before;
 import org.junit.Test;
-//import org.junit.jupiter.api.BeforeAll;
+import static org.junit.Assert.*;
+//import static org.junit.jupiter.api.Assertions.*;
 //import org.junit.jupiter.api.Test;
 
 
@@ -41,5 +39,12 @@ public class TestGreeter {
       g.setName("... Pole");
       assertEquals(g.getName(), "... Pole");
       assertEquals(g.sayHello(), "Hello ... Pole!");
+   }
+   @Test
+   public void newtestZtmGreeterPass()
+   {
+      g.setName("Zeb");
+      assertEquals(g.getName(), "Zeb");
+      assertEquals(g.sayHello(), "Hello Zeb!");
    }
 }
