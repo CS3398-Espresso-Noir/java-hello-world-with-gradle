@@ -47,4 +47,11 @@ public class TestGreeter {
       assertEquals(g.getName(), "Zeb");
       assertEquals(g.sayHello(), "Hello Zeb!");
    }
+   @Test
+   public void newtestZtmGreeterFail()
+   {
+      g.setName("Zeb");
+      assertEquals(g.getName(), "Zeb");
+      assertEquals(g.sayHello(), "Hello Dr. Lehr!");
+   }
 }
