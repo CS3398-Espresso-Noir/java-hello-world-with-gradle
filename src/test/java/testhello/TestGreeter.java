@@ -57,5 +57,6 @@ public class TestGreeter {
    	  g.setName("Liberal Arts Major");
    	  assertEquals(g.setName(), "Liberal Arts Student");
    	  assertEquals(g.sayHello(), "Hello Liberal Arts Student!");
-   }*/
+   }
+   */
 }
