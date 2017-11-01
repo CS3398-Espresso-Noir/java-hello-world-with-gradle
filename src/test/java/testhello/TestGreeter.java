@@ -44,12 +44,21 @@ public class TestGreeter {
    }
 
    @Test
-   public void newtestVJRGreeterPass()
+   public void newtestVJGreeterPass()
    {
       g.setName("everybody");
       assertEquals(g.getName(), "everybody");
-      assertEquals(g.sayHello(), "Hello everybody!");
+      assertEquals(g.sayHello(), "Hello everybody");
    }
+
+   @Test
+   public void newtestVJRGreeterFail()
+   {
+      g.setName("everybody");
+      assertEquals(g.getName(), "everyone");
+      assertEquals(g.sayHello(), "Hello everyone!");
+   }
+
 
 
 }
